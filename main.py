@@ -25,6 +25,7 @@ def read_root():
 
 @app.get("/subjects")
 def get_subjects():
+    """Return all subjects."""
     return subjects
 
 
