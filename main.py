@@ -19,6 +19,7 @@ class SubjectCreate(BaseModel):
 
 @app.get("/")
 def read_root():
+    """Check whether the API is running."""
     return {"message": "StudentOS is running!"}
 
 
